@@ -18,7 +18,7 @@ import java.util.Date;
  */
 public class WebSocketHandler extends SimpleChannelInboundHandler {
 
-    private static Logger logger = Logger.getLogger(WebSocketHandler.class);
+    private final static Logger logger = Logger.getLogger(WebSocketHandler.class);
 
     private WebSocketServerHandshaker handshaker;
 
